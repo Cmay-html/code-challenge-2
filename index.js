@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       alert("You can only add up to 10 guests.");
       return;
     }
-
+    
     // Create list item
     const li = document.createElement("li");
 
