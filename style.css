@@ -1,0 +1,132 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1748901999935-2234cfb6d812?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.invite-heading {
+  text-align: center;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 8px #660033, 0 0 10px #ff85c0; /* dark purple and pink glow */
+  margin-top: 30px;
+  margin-bottom: 40px;
+  letter-spacing: 0.2em;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 80vh;
+  margin-top: 0;
+}
+
+form, #guest-list {
+  font-size: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+li {
+  margin: 20px 0;
+  list-style: none;
+  font-size: 2rem;
+}
+
+button, .help-line {
+  display: inline-block;
+  padding: 15px 32px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #ff69b4 0%, #ffb6c1 100%); /* hot pink to light pink */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 4px 16px #66003333; /* soft dark purple shadow */
+  margin: 10px 5px;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover, .help-line:hover {
+  background: linear-gradient(90deg, #ff85c0 0%, #ffc0cb 100%); /* lighter pink gradient */
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 4px 8px 24px #66003344;
+}
+
+.help-line {
+  width: auto;
+  margin: 0 auto 30px auto;
+  display: block;
+}
+
+#guest-name {
+  font-size: 2rem;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.event-welcome {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #fff;
+  margin: 0 0 40px 0;
+  text-shadow: 1px 1px 6px #66003388; /* purple shadow */
+  font-style: italic;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px;
+  border-left: 4px solid #ffb6c1; /* light pink border */
+  border-right: 4px solid #ffb6c1;
+  background: rgba(102, 0, 51, 0.3); /* transparent dark purple */
+  quotes: "“" "”" "‘" "’";
+  position: relative;
+  z-index: 2;
+}
+
+.event-welcome em {
+  font-style: normal;
+}
+
+.event-welcome::before {
+  content: open-quote;
+  font-size: 2rem;
+  vertical-align: -0.4em;
+  color: #ffb6c1; /* light pink quotes */
+}
+
+.event-welcome::after {
+  content: close-quote;
+  font-size: 2rem;
+  vertical-align: -0.4em;
+  color: #ffb6c1;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 18px 0;
+  color: #fff;
+  background: rgba(102, 0, 51, 0.5); /* semi-transparent dark purple */
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  z-index: 10;
+  position: static;
+  margin-top: auto;
+}
