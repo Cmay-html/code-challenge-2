@@ -32,7 +32,7 @@ Guests can be marked as “Attending” or “Not Attending” by toggling their
 - A modern web browser  
 
 ### View Live Site  
-Visit the deployed application at:  
+Visit the deployed application at: http://127.0.0.1:5500/ 
 
 The live site allows you to:
 - **Add Guests:**  
@@ -70,7 +70,7 @@ Install the required dependencies:
 Run the development server:  
 `npm run dev`
 
-Open your browser and visit http:
+Open your browser and visit http://127.0.0.1:5500/
 
 ---
 

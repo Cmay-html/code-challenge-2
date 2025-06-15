@@ -17,7 +17,7 @@ body {
   font-size: 6rem;
   font-weight: bold;
   color: #fff;
-  text-shadow: 2px 2px 8px #660033, 0 0 10px #ff85c0; /* dark purple and pink glow */
+  text-shadow: 2px 2px 8px #660000, 0 0 10px #f7c5cc; /* dark cherry red shadow + bubblegum pink glow */
   margin-top: 30px;
   margin-bottom: 40px;
   letter-spacing: 0.2em;
@@ -50,19 +50,19 @@ button, .help-line {
   font-size: 1.5rem;
   font-weight: bold;
   color: #fff;
-  background: linear-gradient(90deg, #ff69b4 0%, #ffb6c1 100%); /* hot pink to light pink */
+  background: linear-gradient(90deg, #cc313d 0%, #f7c5cc 100%); /* cherry red to bubblegum pink */
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 2px 4px 16px #66003333; /* soft dark purple shadow */
+  box-shadow: 2px 4px 16px #66000033; /* subtle dark cherry shadow */
   margin: 10px 5px;
   transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
 }
 
 button:hover, .help-line:hover {
-  background: linear-gradient(90deg, #ff85c0 0%, #ffc0cb 100%); /* lighter pink gradient */
+  background: linear-gradient(90deg, #f7c5cc 0%, #cc313d 100%); /* reversed gradient on hover */
   transform: translateY(-2px) scale(1.04);
-  box-shadow: 4px 8px 24px #66003344;
+  box-shadow: 4px 8px 24px #66000044;
 }
 
 .help-line {
@@ -75,7 +75,7 @@ button:hover, .help-line:hover {
   font-size: 2rem;
   padding: 15px 20px;
   border-radius: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #cc313d; /* cherry red border */
   margin-bottom: 15px;
   width: 100%;
   box-sizing: border-box;
@@ -86,15 +86,15 @@ button:hover, .help-line:hover {
   font-size: 1.1rem;
   color: #fff;
   margin: 0 0 40px 0;
-  text-shadow: 1px 1px 6px #66003388; /* purple shadow */
+  text-shadow: 1px 1px 6px #66000088; /* dark cherry shadow */
   font-style: italic;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 20px;
-  border-left: 4px solid #ffb6c1; /* light pink border */
-  border-right: 4px solid #ffb6c1;
-  background: rgba(102, 0, 51, 0.3); /* transparent dark purple */
+  border-left: 4px solid #f7c5cc; /* bubblegum pink border */
+  border-right: 4px solid #f7c5cc;
+  background: rgba(102, 0, 0, 0.3); /* transparent dark cherry */
   quotes: "“" "”" "‘" "’";
   position: relative;
   z-index: 2;
@@ -108,14 +108,14 @@ button:hover, .help-line:hover {
   content: open-quote;
   font-size: 2rem;
   vertical-align: -0.4em;
-  color: #ffb6c1; /* light pink quotes */
+  color: #f7c5cc; /* bubblegum pink quotes */
 }
 
 .event-welcome::after {
   content: close-quote;
   font-size: 2rem;
   vertical-align: -0.4em;
-  color: #ffb6c1;
+  color: #f7c5cc;
 }
 
 .footer {
@@ -123,7 +123,7 @@ button:hover, .help-line:hover {
   text-align: center;
   padding: 18px 0;
   color: #fff;
-  background: rgba(102, 0, 51, 0.5); /* semi-transparent dark purple */
+  background: rgba(102, 0, 0, 0.5); /* semi-transparent dark cherry */
   font-size: 1rem;
   letter-spacing: 0.05em;
   z-index: 10;
