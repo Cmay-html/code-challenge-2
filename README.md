@@ -32,7 +32,7 @@ Guests can be marked as “Attending” or “Not Attending” by toggling their
 - A modern web browser  
 
 ### View Live Site  
-Visit the deployed application at: http://127.0.0.1:5500/ 
+Visit the deployed application at:  https://cmay-html.github.io/code-challenge-2/
 
 The live site allows you to:
 - **Add Guests:**  
@@ -70,7 +70,7 @@ Install the required dependencies:
 Run the development server:  
 `npm run dev`
 
-Open your browser and visit http://127.0.0.1:5500/
+Open your browser and visit  https://cmay-html.github.io/code-challenge-2/
 
 ---
 
